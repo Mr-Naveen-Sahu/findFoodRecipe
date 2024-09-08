@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Api food meal </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <div class="container">
+        
+        <h1 class="heading">Spicy Meal Food</h1>
+        <!-- serch box -->
+        <div class="meal-container">
+             
+             <form class="meal-container-flex" id="submit">
+                <input type="text" id="search" autocomplete="off" placeholder="serch meal">
+                <button class="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+             </form>
+             <!-- <button class="random-btn" id="random">random</button> -->
+              <button class="random-btn" id="random">random</button>
+          </div>
+            <p class="meal-result-heading" id="meal-result-heading"></p>
+           
+           
+
+
+
+
+     <!-- ====================================================================== -->
+        <!-- all meal container -->
+        <div class="meal-container">
+                <div id="meals" class="all-meal go">  </div>
+        </div>      
+    <!-- ======================================================================  -->
+        
+           <!-- single mear container -->
+       <div id="single-meal-container"> 
+
+
+
+
+       </div>
+
+
+
+
+
+
+
+     </div>
+ 
+    <script src="main.js"></script>
+</body>
+</html>
+
+<!-- <div class="single-meal">
+   <h1>${meal.strMeal}</h1>
+    <div class="single-meal-info">
+      ${meal.strCategory?`<p>${meal.strCategoty}</p>`:""}
+      ${meal.strArea?`<p>${meal.strCategoty}</p>`:""}
+    </div>
+    <img src="${meal.strMealThumb}" alt="${meal.strMeal}">
+</div>44 -->
