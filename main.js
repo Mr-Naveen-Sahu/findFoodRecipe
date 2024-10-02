@@ -32,6 +32,8 @@ function getRanDomMeal(e){
 function findmeal(e) {
     e.preventDefault();
     const item = serch.value
+     let uttr = new SpeechSynthesisUtterance(item);
+        speechSynthesis.speak(uttr);
 
      if(item.trim()){
 
